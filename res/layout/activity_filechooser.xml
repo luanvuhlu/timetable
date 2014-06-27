@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_width="fill_parent">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/folder_icon"
+            android:maxHeight="100dp"
+            android:maxWidth="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/FolderLabel"
+            android:textSize="18dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_marginTop="30dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/FolderNumber"
+            android:layout_below="@+id/FolderLabel"
+            android:layout_alignLeft="@+id/FolderLabel"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/FolderDate"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@+id/FolderNumber"/>
+
+</RelativeLayout>

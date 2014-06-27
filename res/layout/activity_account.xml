@@ -1,0 +1,177 @@
+<ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:background="#000">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#000">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/linearLayout2">
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/relativeLayout"
+                    android:background="#000"
+                    android:padding="20dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/display"
+                        android:id="@+id/textView"
+                        android:textColor="#fff"
+                        android:textSize="22dp"/>
+
+                <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:checked="false"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:id="@+id/linearLayout"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/relativeLayout2"
+                    android:background="#000"
+                    android:padding="20dp"
+                    android:layout_marginTop="1dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fontSize"
+                        android:id="@+id/textView2"
+                        android:textColor="#fff"
+                        android:textSize="22dp"/>
+
+                <SeekBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekBar"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:minWidth="100dp"
+                        android:indeterminate="false"
+                        android:indeterminateOnly="false"
+                        android:max="50"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:id="@+id/linearLayout3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/relativeLayout3"
+                    android:background="#000"
+                    android:padding="20dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="0dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Text Color"
+                        android:id="@+id/textView3"
+                        android:textColor="#fff"
+                        android:textSize="22dp"/>
+
+                <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner"
+                        android:background="#fff"
+                        android:layout_alignTop="@+id/textView3"
+                        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/linearLayout4" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayout5"
+                android:background="#000"
+                android:padding="20dp"
+                android:layout_marginBottom="1dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/demo"
+                    android:id="@+id/txtDemo"
+                    android:textColor="#fff"
+                    android:textSize="22dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/linearDelete">
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/relativeLayout4"
+                    android:background="#000"
+                    android:padding="20dp"
+                    android:layout_marginBottom="0dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/delete"
+                        android:id="@+id/textVew10"
+                        android:textColor="#fff"
+                        android:textSize="22dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thời khóa biểu HLU</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="action_goto">Đi đến</string>
+    <string name="action_subjectList">Danh sách môn học</string>
+    <string name="app_fullName">
+        Phần mềm xem Thời khóa biểu trường Đại học Luật Hà Nội.
+    </string>
+    <string name="version">
+        Phiên bản 2.2
+    </string>
+    <string name="contact">
+        Mọi ý kiến phản hồi xin liên hệ
+        Email: luanhlu3503@gmail.com
+    </string>
+    <string name="display">
+        Hiển thị
+    </string>
+    <string name="delete">
+        Xóa
+    </string>
+    <string name="fontSize">
+        Cỡ chữ
+    </string>
+    <string name="hours">
+        Tiết học
+    </string>
+    <string name="subject">
+        Môn học
+    </string>
+    <string name="location">
+        Địa điểm
+    </string>
+    <string name="file">
+        File
+    </string>
+    <string name="about">
+        Giới thiệu
+    </string>
+    <string name="settings">
+        Cài đặt
+    </string>
+    <string name="displaySettings">
+        Cài đặt hiển thị
+    </string>
+    <string name="subjectList">
+        Danh sách môn học
+    </string>
+    <string name="studentList">
+        Danh sách sinh viên
+    </string>
+    <string name="demo">
+        Trường đại học luật Hà Nội
+    </string>
+</resources>
